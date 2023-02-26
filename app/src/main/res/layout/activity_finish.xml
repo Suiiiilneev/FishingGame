@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_start_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/game_over"
+        android:layout_width="375dp"
+        android:layout_height="318dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gameover" />
+
+    <ImageButton
+        android:id="@+id/back_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:contentDescription="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/game_over"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/button_to_menu" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="35dp"
+        android:contentDescription="again"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/game_over"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/back_home"
+        app:srcCompat="@drawable/button_play_again" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="78dp"
+        android:backgroundTint="@color/white"
+        android:text="250"
+        android:textColor="@color/black"
+        android:textSize="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/game_over"
+        app:layout_constraintEnd_toEndOf="@+id/game_over"
+        app:layout_constraintStart_toStartOf="@+id/game_over"
+        app:layout_constraintTop_toTopOf="@+id/game_over" />
+</androidx.constraintlayout.widget.ConstraintLayout>

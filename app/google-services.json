@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590912783938",
+    "project_id": "fishing-2d75d",
+    "storage_bucket": "fishing-2d75d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590912783938:android:12466b2c31646b70e58fdb",
+        "android_client_info": {
+          "package_name": "com.doggyliash.blazfishing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590912783938-2quqehh895tfppjiglnlgeqnmppoj5vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7WFp3QGFp0T3gjXJlcIuLvcbTdgNHmDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590912783938-2quqehh895tfppjiglnlgeqnmppoj5vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
